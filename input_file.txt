@@ -1,0 +1,10 @@
+aravind=88
+ravi  =90
+yuva   =98
+raja   =97
+pandi  =90
+siva   =97
+sekar  =95
+david  =92
+karthi =88
+palani =97
