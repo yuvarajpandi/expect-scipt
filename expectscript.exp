@@ -1,0 +1,11 @@
+#!/bin/bash/expect
+
+set timeout 20
+
+spawn "./pipe_file.txt"
+
+expect "yuva"
+send "FAIL : <$expect_out(buffer)> \n"
+send "PASS :  <$expect_out(0,string)>\n"
+
+interact
