@@ -11,8 +11,12 @@ int main()
 	int linecount=0;
 	int split_count=0;
 	int choice=0;
-	char fileoutput[100]="E:\\input_file.txt";
+	char fileinput[100];
 	char store[10];
+	
+	printf("\nEnter the file name: ");
+	scanf("%s",&fileinput);
+	
 	ptr1=fopen(fileoutput,"r");
 	
 
